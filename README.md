@@ -65,7 +65,7 @@ python mediagrapher.py --help
 Output:
 
 ```bash
-usage: MediaGrapher [-h] [-o OUTPUT] [-a {Canny,Sobel}] [-t LOW HIGH] [-p threads] url
+usage: MediaGrapher [-h] [-o OUTPUT] [-a {Canny, Sobel}] [-t LOW HIGH] [-p threads] url
 
 Command-line interface for graphing images and videos.
 
