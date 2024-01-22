@@ -201,8 +201,6 @@ def process_video(video_path: str, frames_folder: str, output_filename: str, thr
         thresholds (tuple, optional): The thresholds to be used by the image processing algorithm. Defaults to (30, 150).
         threads (int, optional):
     """
-    # threads = min(MAX_THREADS, max(4, threads)) # Limit to available threads and minimum of 4
-
     print(f"Utilizing {threads} threads...")
     print("Getting video metadata...")
     metadata = get_video_metadata(video_path)
